@@ -1,0 +1,454 @@
+/* Default Color
+    Blue: #148DE3
+    Light_Blue: #ADE2F7;
+*/
+/* Global CSS */
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text-primary {
+  color: #148de3 !important;
+}
+
+.btn-primary {
+  color: white !important;
+  background-color: #148de3 !important;
+}
+
+.bg-primary {
+  background-color: #148de3 !important;
+}
+
+.badge-primary {
+  background-color: #148de3 !important;
+}
+/* End of Global CSS */
+/* ----------------------------------------- Styling for the Landing Page ------------------------------- */
+/* Top Navigation Related Style */
+.LandingPage div .nav-item .btn-landing-signin {
+  background-color: #148de3;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+}
+
+.LandingPage .navbar .active a {
+  color: #148de3 !important;
+}
+
+.LandingPage .navbar .nav-item a:hover {
+  color: #148de3 !important;
+}
+.LandingPage .navbar {
+  transition: 750ms ease;
+}
+.LandingPage .navbar.scrolled {
+  background-color: #fafafa !important;
+}
+.LandingPage .navbar.scrolled .nav-item .btn-landing-signin {
+  background-color: #148de3;
+  color: white !important;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+}
+.LandingPage .navbar.scrolled .nav-link,
+.LandingPage .navbar.scrolled .active a,
+.LandingPage .navbar.scrolled .navbar-brand {
+  color: #148de3 !important;
+}
+.LandingPage .navbar .nav-item .btn-landing-signin:hover {
+  color: white !important;
+}
+/* End of Top Navigation */
+
+/* The Main Conent - Index.Php */
+.Page-Title {
+  font-weight: bold;
+  font-size: 85px;
+  color: #148de3;
+  margin: 30% 0 0 0%;
+}
+.index-main-content .card-title {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.index-main-content .row {
+  margin: -10px;
+}
+.index-main-content .row .Landing_Image {
+  width: 83%;
+  margin: -100px;
+}
+
+.btn-landing-create {
+  background-color: #148de3;
+  border-radius: 20px;
+}
+.index-main-content .news,
+.index-main-content .services {
+  margin-top: 13%;
+}
+.index-main-content .sub-page-sub-topic .dropdown-divider {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.index-main-content .Tranding_Sub_News {
+  background-color: #fafafa;
+  margin-left: -100px;
+  margin-right: 65px;
+}
+.index-main-content .Tranding_Sub_News .News_Decstiption {
+  position: relative;
+}
+.index-main-content .Tranding_Sub_News .posted_by {
+  position: absolute;
+  bottom: 0;
+}
+.index-main-content .Tranding_Sub_News small a,
+.index-main-content .view_all_news_link {
+  text-decoration: none;
+}
+.index-main-content .serive_posts .card {
+  border-radius: 20px !important;
+}
+footer {
+  background-image: url("../Assets/Path_2.png");
+  margin-top: 100px;
+  height: 600px;
+  background-size: 100% 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.footer .row {
+  margin-top: -150px;
+  widows: 100%;
+}
+.footer .row .brading_footer,
+.footer .row .contact_footer {
+  margin: 340px 0 0 100px;
+}
+.footer .row .subscribtion {
+  margin-top:200px;
+}
+.footer .row .subscribtion2 {
+  margin-top: 400px;
+}
+
+.footer .row .subscribtion .btn-light,
+.footer .row .subscribtion .form-control {
+  border-radius: 20px !important;
+}
+.footer .row .subscribtion .form-control {
+  background-color: #fafafa;
+}
+.footer .row .subscribtion2 .btn-light,
+.footer .row .subscribtion2 .form-control {
+  border-radius: 20px !important;
+}
+.footer .row .subscribtion2 .form-control {
+  background-color: #fafafa;
+}
+.footer .footer-links {
+  text-decoration: none;
+}
+/* End of Main Content */
+/* Modal Style in Index.php */
+
+.signin_modal .form-control {
+  border-radius: 20px !important;
+}
+
+.signin_modal .btn-primary {
+  border-radius: 20px !important;
+  font-size: 18px;
+}
+
+/* End of Modal Style */
+
+/*--------------------------------------- End of the Landing Page-------------------------------------------------------- */
+/* -------------------------------------- Create Account Request Page ----------------------------------------------------- */
+
+.main-content {
+  text-align: center;
+}
+.main-content .create_ac_btn {
+  border-radius: 20px !important;
+}
+
+/* -------------------------------------- End Create Account Request Page ----------------------------------------------------- */
+/* -------------------------------------- Job and Competition ------------------------------------------------------------------ */
+
+.default-header .container-fluid .job-content input.form-control {
+  width: 500px;
+  box-shadow: none;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.default-header .container-fluid .job-content input.btn {
+  width: 150px;
+  border-radius: 20px !important;
+}
+.default-header .container-fluid .job-content select.form-control {
+  box-shadow: none;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.default-header .container-fluid .job-content .view-detail-job-btn {
+  border-radius: 20px !important;
+}
+.default-header .container-fluid .job-detail-icon {
+  width: 20px;
+  height: 20px;
+}
+.default-header .container-fluid .job-content .company-logo img {
+  width: 150px;
+}
+.default-header .container-fluid .menu-items a li {
+  text-decoration: none;
+  color: black;
+}
+.default-header .container-fluid .menu-items a:hover {
+  text-decoration: none;
+}
+.default-header .container-fluid .menu-items a:hover li {
+  text-decoration: none;
+  background-color: #fafafa;
+  color: black;
+}
+.default-header .container-fluid .menu-items a li.active {
+  color: white !important;
+}
+.default-header .container-fluid .menu-items a:hover li.active {
+  color: black !important;
+}
+.default-header .container-fluid .comapny-content .card .dropdown-divider {
+  height: 150px;
+  margin: 0px;
+  width: 0px;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #fff;
+}
+.default-header .container-fluid .comapny-content .social-icons {
+  width: 25px;
+  height: 25px;
+}
+.default-header .container-fluid .comapny-content .companny-nav a {
+  text-decoration: none;
+  color: black !important;
+}
+.default-header .container-fluid .comapny-content .companny-nav a:hover {
+  text-decoration: none;
+  color: black !important;
+  background-color: #fafafa;
+}
+.default-header .container-fluid .comapny-content .companny-nav a.active {
+  text-decoration: none;
+  color: black !important;
+  background-color: #fafafa;
+  border-bottom: 1px solid #148de3;
+}
+.default-header .container-fluid .comapny-content .companny-nav a:visited {
+  text-decoration: none;
+  color: black !important;
+}
+.default-header .message-btn {
+  border-radius: 20px !important;
+}
+.default-header .company-profile .company-contact {
+  margin: 70px;
+}
+.default-header .company-profile .comapny-content .contact-description {
+  font-size: 50px;
+}
+.default-header .comapny-content .contact-icon {
+  width: 30px;
+  height: 30px;
+}
+/* -------------------------------------- End of Job and Compeition ------------------------------------------------------------- */
+/* --------------------------------------Template Usage - The Home Page Navigation Panel---------------------------------- */
+
+/*Changing Background for the naviagtion*/
+.default-header .navbar {
+  background-color: #148de3;
+}
+
+/* style for the search bar in navigation */
+
+.default-header .navbar .input-group .form-control {
+  width: 300px;
+  border: none;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  background-color: #ade2f7;
+}
+
+.default-header .navbar .input-group .form-control:focus {
+  box-shadow: none;
+}
+.default-header .navbar .input-group-prepend span {
+  background-color: #ade2f7 !important;
+  border: none;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+
+.default-header .navbar .input-group img {
+  width: 20px;
+  height: 20px;
+}
+
+/* end of style of search bar navigation  */
+
+/*style for the message, connection and notification icon in navigation*/
+
+.default-header .nav-icon-symbol {
+  width: 30px;
+  height: 30px;
+}
+
+.default-header .badge-light {
+  border-radius: 50%;
+  background-color: white !important;
+  color: black;
+  margin-left: -20%;
+  margin-top: -20%;
+}
+
+/* For the Profile Image Icon */
+.default-header .avatar-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: -15%;
+}
+/* End of the Profile Image Icon */
+/* end of navigation symbol style */
+
+/* Profile dropdown */
+.dropdown:hover .dropdown-toggler {
+  color: white;
+}
+.default-header .dropdown-menu {
+  width: 230px;
+}
+
+.default-header .dropdown-toggle::after {
+  content: none;
+}
+
+.default-header .avatar-img-profile {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+/* End of Profile dropdown  */
+
+/*--------- Media Query for Navigation responsive ---------*/
+
+/* For Normal Laptop Screen */
+@media screen and (max-width: 1024px) {
+  /* Minimizing the search input control */
+  .default-header .navbar .input-group .form-control {
+    width: 200px;
+  }
+}
+
+/* For Tablet Screen */
+@media screen and (max-width: 768px) {
+  /* Minimizing the search input control */
+  .default-header .navbar .input-group .form-control {
+    width: 100px;
+  }
+  /* Managing the navigation selections position */
+  .default-header .navbar-collapse .nav-selection {
+    background-color: #fafafa;
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Managing the icon symbols */
+  .default-header .badge {
+    border: 1px solid #148de3;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Managing the Navigation */
+  .default-header .navbar {
+    width: 100vh;
+    position: absolute;
+    right: 0;
+  }
+  /* Minimizing the search input control */
+  .default-header .navbar .input-group .form-control {
+    width: 10px;
+  }
+
+  /* Managing the navigation selections position */
+  .default-header .navbar-collapse .nav-selection {
+    position: absolute;
+  }
+}
+
+/* ----------------------------------------Template Usage - End of Navigation Header Style ------------------------------------*/
+/* ----------------------------------------Index Page  */
+/* Create page */
+form .form-group .form-rounded {
+  border-radius: 20px !important;
+}
+
+.text-bold {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.selectoption {
+  background: none;
+  border: 1px solid #148de3;
+  outline: none;
+}
+.attachpropic {
+  border: 1px solid #148de3;
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  /* overflow: hidden; */
+}
+.attachpropic img {
+  margin-left: 25px;
+}
+.propicbutton {
+  font-size: 1rem;
+  width: 200px;
+  margin-left: 25px;
+}
+.signinbtn {
+  /* display: inline-block; */
+  font-size: 1.5rem;
+  width: 200px;
+}
+.create {
+  /* border: 1px solid black; */
+  margin-bottom: 100px;
+}
+.validateerror{
+  font-size: 15px;
+  color: red;
+}
+/* End of Create Page */
