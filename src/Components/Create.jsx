@@ -8,10 +8,10 @@ class Create extends Component {
     render() { 
         return ( 
             <React.Fragment>
-            <header><Navbar/></header>
-            <main><Create_Account /></main>
-            <Footer/>
-        </React.Fragment>
+                <header><Navbar/></header>
+                <main><Create_Account /></main>
+                <Footer/>
+            </React.Fragment>
          );
     }
 }

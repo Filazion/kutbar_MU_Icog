@@ -66,7 +66,7 @@ body {
 }
 /* End of Top Navigation */
 
-/* The Main Conent - Index.Php */
+/* The Main Conent - Index.jsx */
 .Page-Title {
   font-weight: bold;
   font-size: 85px;
@@ -128,14 +128,13 @@ footer {
 }
 .footer .row {
   margin-top: -150px;
-  widows: 100%;
 }
 .footer .row .brading_footer,
 .footer .row .contact_footer {
   margin: 340px 0 0 100px;
 }
 .footer .row .subscribtion {
-  margin-top:200px;
+  margin-top:400px;
 }
 .footer .row .subscribtion2 {
   margin-top: 400px;
